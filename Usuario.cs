@@ -3,8 +3,8 @@
 /*
     # TODO
   [x] Encapsulamiento
-  [ ] Constructor
-  [ ] Herencia
+  [X] Constructor
+  [X] Herencia
   [ ] Polimorfismo
 */
 
