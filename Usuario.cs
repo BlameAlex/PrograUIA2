@@ -1,7 +1,7 @@
 ﻿using System;
 
 /*
-    # TODO
+    ## TODO
   [x] Encapsulamiento
   [X] Constructor
   [X] Herencia
