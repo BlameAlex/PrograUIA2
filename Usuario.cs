@@ -27,10 +27,10 @@ class Usuario
         Contraseña = contraseña;
     }
 
-    public class Docente()
-    {
-        private string Materia;
-    }
 
 }
-// This is a simple C# program that prints "hello World" to the console.
+
+class administrador
+{
+    
+}
