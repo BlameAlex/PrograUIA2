@@ -1,11 +1,11 @@
 ﻿using System;
 
 /*
-    ## TODO
-  [x] Encapsulamiento
-  [X] Constructor
-  [X] Herencia
-  [ ] Polimorfismo
+## TODO
+- [x] Encapsulamiento
+- [x] Constructor
+- [x] Herencia
+- [ ] Polimorfismo
 */
 
 class Usuario
