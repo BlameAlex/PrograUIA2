@@ -1,4 +1,4 @@
-# Proyecto integrador
+# Tarea POO
 
-este proyecto es para la administracion de usuarios y sus documentos
+en esta tarea veremos como se usa: Encapsulamiento Constructor Herencia Polimorfismo 
 
