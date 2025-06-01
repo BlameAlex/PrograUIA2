@@ -38,44 +38,25 @@ class Usuario
 
 }
 
-class Persona
+// Docente va a heredar de Usuario
+
+class Docente: Usuario
 {
-    public string Nombre;
-    public int Edad;
+    public string Especialidad;
 
-    // este es l constructor
-    public Persona(string nombre, int edad)
+    public Docente(string nombre, string apellido, string edad, string especialidad)
     {
-        Nombre = nombre;
-        Edad = edad;
-    }
-
-    public void MostrarInfo()
-    {
-        Console.WriteLine($"Nombre: {Nombre}, Edad: {Edad}");
-    }
-}
-
-// Estudiante va a heredar de Persona
-
-class Estudiante : Persona
-{
-    public string Escuela;
-
-    public Estudiante(string nombre, int edad, string escuela) 
-        : base(nombre, edad)
-        // Llama al constructor de la clase base
-    {
-        // y agrega lo suyo xd
-        Escuela = escuela;
+        CambiarInfo(nombre, apellido, int.Parse(edad));       
+        Especialidad = especialidad;
+    
     }
 
     public void MostrarInfoCompleta()
     {
         // Llama al metodo heredado y agrega su parte
 
-        MostrarInfo();
-        Console.WriteLine($"Escuela: {Escuela}");
+        base.MostrarInfo();
+        Console.WriteLine($"Especialidad: {Especialidad}");
     }
 
 }
