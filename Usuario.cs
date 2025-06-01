@@ -5,7 +5,7 @@ class Usuario
     string Nombre;
     string Apellido;
     int Edad;
-    string Contraseña; //encapsulada
+    private string Contraseña; //encapsulada
 
     public void MostrarInfo()
     {
