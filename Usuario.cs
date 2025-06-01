@@ -1,5 +1,13 @@
 ﻿using System;
 
+/*
+    # TODO
+  [x] Encapsulamiento
+  [ ] Constructor
+  [ ] Herencia
+  [ ] Polimorfismo
+*/
+
 class Usuario
 {
     string Nombre;
@@ -30,3 +38,44 @@ class Usuario
 
 }
 
+class Persona
+{
+    public string Nombre;
+    public int Edad;
+
+    // este es l constructor
+    public Persona(string nombre, int edad)
+    {
+        Nombre = nombre;
+        Edad = edad;
+    }
+
+    public void MostrarInfo()
+    {
+        Console.WriteLine($"Nombre: {Nombre}, Edad: {Edad}");
+    }
+}
+
+// Estudiante va a heredar de Persona
+
+class Estudiante : Persona
+{
+    public string Escuela;
+
+    public Estudiante(string nombre, int edad, string escuela) 
+        : base(nombre, edad)
+        // Llama al constructor de la clase base
+    {
+        // y agrega lo suyo xd
+        Escuela = escuela;
+    }
+
+    public void MostrarInfoCompleta()
+    {
+        // Llama al método heredado y agrega su parte
+
+        MostrarInfo();
+        Console.WriteLine($"Escuela: {Escuela}");
+    }
+
+}
