@@ -72,7 +72,7 @@ class Estudiante : Persona
 
     public void MostrarInfoCompleta()
     {
-        // Llama al método heredado y agrega su parte
+        // Llama al metodo heredado y agrega su parte
 
         MostrarInfo();
         Console.WriteLine($"Escuela: {Escuela}");
