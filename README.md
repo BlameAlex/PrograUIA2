@@ -1,2 +1,4 @@
 # Proyecto integrador
-## aun en proceso
+
+este proyecto es para la administracion de usuarios y sus documentos
+
