@@ -6,7 +6,8 @@ class Program {
         // Crear un objeto de la clase Usuario
         Usuario usuario = new Usuario("Juan", "Pérez", 25, "contraseña123");
         usuario.MostrarInfo();
-
+        Console.WriteLine(); //Espaciador
+        
         // Cambiar información del usuario
         usuario.CambiarInfo("Juan Carlos", "Pérez López", 26);
         usuario.MostrarInfo();
