@@ -13,5 +13,16 @@ class Program {
 
         // Cambiar contraseña del usuario
         usuario.CambiarContraseña("nuevaContraseña456");
+        Console.WriteLine(); //Espaciador
+
+        // Crear un objeto de la clase Docente
+        Docente docente = new Docente("Ana", "Gómez", 30, "docente123", "Matemáticas", "Matutino");
+        docente.MostrarInfo();
+        Console.WriteLine(); //Espaciador
+
+        // Crear un objeto de la clase Alumno
+        Alumno alumno = new Alumno("Luis", "Martínez", 20, "alumno123", 123456, "Ingeniería en Desarrollo de Software", "Segundo", "LITIID32");
+        alumno.MostrarInfo();
+
     }
 }

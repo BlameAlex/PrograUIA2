@@ -4,7 +4,7 @@ en esta tarea veremos como se usa: Encapsulamiento Constructor Herencia Polimorf
 
 ## TODO
 - [x] Encapsulamiento
-- [ ] Constructor
+- [x] Constructor
 - [x] Herencia
-- [ ] Polimorfismo
+- [x] Polimorfismo
 
